@@ -1,10 +1,11 @@
-public class Paciente<E> implements Comparable<Paciente> {
+//Julio Gonzalez 14096
+public class Paciente implements Comparable<Paciente> { 
     
     private String nombre;
     private String prioridad;
     private String sintoma;
 
-	public Pacuente(String nombre, String sintoma, String prioridad) {
+	public Paciente(String nombre, String sintoma, String prioridad) {
 		super();
 		this.nombre = nombre;
 		this.sintoma = sintoma;

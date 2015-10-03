@@ -1,4 +1,4 @@
-import java.util.PriorityQueue<E>
+//Julio Gonzalez 14096
 
 public interface PriorityQueue<E extends Comparable<E>>{
 	public E getFirst();
